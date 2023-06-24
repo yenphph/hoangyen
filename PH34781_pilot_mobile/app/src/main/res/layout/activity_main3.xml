@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#CA9EC9"
+    tools:context=".MainActivity3">
+
+
+        <EditText
+            android:id="@+id/txttena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#8857A6"
+            android:hint="Tên: "
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColorHint="#8857A6"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/txthanga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hãng: "
+            android:layout_marginTop="18dp"
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColorHint="#8857A6"
+            android:textStyle="bold"
+            android:textColor="#8857A6"
+            />
+
+
+        <EditText
+            android:id="@+id/txtnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:hint="Năm: "
+            android:layout_marginTop="18dp"
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColorHint="#8857A6"
+            android:textColor="#8857A6"
+            />
+        <EditText
+            android:id="@+id/txtgiaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá: "
+            android:layout_marginTop="18dp"
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColorHint="#8857A6"
+            android:textColor="#8857A6"
+            android:textStyle="bold"
+            />
+
+    <Button
+        android:id="@+id/btnadda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu Lại"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#927CBA"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Bạn chắc chắn muốn xóa?"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/btnco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#D17575"
+            android:text="Có"/>
+        <Button
+            android:id="@+id/btnkh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D17575"
+            android:text="Không"/>
+    </LinearLayout>
+</LinearLayout>

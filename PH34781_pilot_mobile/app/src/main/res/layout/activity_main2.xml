@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D17575"
+    android:padding="20dp"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÊM SẢN PHẨM"
+        android:layout_gravity="right"
+        android:backgroundTint="#927CBA"
+        />
+    <ListView
+        android:id="@+id/lstds"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:background="#F4C7C7"
+        android:dividerHeight="1dp"
+        android:divider="#D17575"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
