@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "690547645055",
+    "project_id": "buoi1-e2380",
+    "storage_bucket": "buoi1-e2380.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690547645055:android:86883ec533b2574b2f3d4a",
+        "android_client_info": {
+          "package_name": "com.example.buoi1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC0gEDiaynQmoMEXj9a0XZjhCNt6_WQ08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

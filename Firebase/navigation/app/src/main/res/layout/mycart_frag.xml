@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/my_cart_img"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/baseline_delete_24"/>
+        <TextView
+            android:id="@+id/new_products_name"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#009688"
+            android:layout_height="wrap_content"
+            android:text="My cart"
+            android:textSize="32sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/constraint2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price : 300$"
+            android:textSize="28sp"
+            android:padding="10dp"
+            android:background="#45BDB2"
+            android:textColor="#FF5722"
+            android:textStyle="bold"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rec_mycart"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:text="Buy Now"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/buy_now"
+        android:layout_gravity="bottom"
+        android:textColor="#033A42"/>
+
+</LinearLayout>

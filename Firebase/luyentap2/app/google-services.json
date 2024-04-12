@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943002756337",
+    "project_id": "luyentap2-6f8b1",
+    "storage_bucket": "luyentap2-6f8b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943002756337:android:ba6e73ef7427f17ea47550",
+        "android_client_info": {
+          "package_name": "com.example.luyentap2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2wIA9u8-hUll7cFlaK81be8mB-VLCAIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

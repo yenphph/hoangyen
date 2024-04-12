@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "985336816207",
+    "firebase_url": "https://login-register-b7437-default-rtdb.firebaseio.com",
+    "project_id": "login-register-b7437",
+    "storage_bucket": "login-register-b7437.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985336816207:android:13d9fbf04fc9fb0dfc003a",
+        "android_client_info": {
+          "package_name": "com.example.login_regester"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDImubKY90OdfsySANADAVqQ_VNnWZk6SM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

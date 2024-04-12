@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <EditText
+            android:id="@+id/txtaddten"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:background="@drawable/add_bg"
+            android:hint="User name"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/txtaddemail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:background="@drawable/add_bg"
+            android:hint="User email"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/txtaddnuoc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:background="@drawable/add_bg"
+            android:hint="dat nuoc"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnaddthem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="#FF5722"
+            android:text="Add"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnaddhuy"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginTop="5dp"
+            android:background="#2196F3"
+            android:text="EXIT"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/user_item_bg"
+    android:layout_margin="4sp"
+    android:padding="4sp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="name"
+        />
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="email"
+        />
+    <TextView
+        android:id="@+id/textdatnuoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="dat nuoc"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btndelete"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="1px"
+            layout_weight="1"
+            android:background="#FF5722"
+            android:text="DELETE"
+            android:textColor="@color/white"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnupdate"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="1px"
+            layout_weight="1"
+            android:background="#2196F3"
+            android:text="DELETE"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+</LinearLayout>

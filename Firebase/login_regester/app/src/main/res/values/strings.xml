@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">login_regester</string>
+    <string name="login">login</string>
+    <string name="email">Email</string>
+    <string name="pass">pass</string>
+    <string name="register">register</string>
+    <string name="cli_to_login">cli_to_login</string>
+    <string name="cli_to_register">cli_to_register</string>
+    <string name="layout">layout</string>
+</resources>

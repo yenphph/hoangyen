@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home.reges2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/reg_img"
+        android:src="@mipmap/ic_launcher"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_name"
+        android:hint="Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/reg_email"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/reg_pass"
+        android:layout_height="wrap_content"
+        android:hint="Pass"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_sign_up"
+        android:hint="Sign up"/>
+    <TextView
+        android:id="@+id/reg_tk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account ?"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/reg_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progresbar"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

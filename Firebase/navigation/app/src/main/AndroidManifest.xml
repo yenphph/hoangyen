@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Navigation"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity1.dangnhap1"
+            android:exported="false" />
+        <activity
+            android:name=".Lan1.dangky"
+            android:exported="false" />
+        <activity
+            android:name=".activity1.trangchu1"
+            android:exported="false" />
+        <activity
+            android:name=".Lan1.trangchu1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lan1.dangnhap"
+            android:exported="false" />
+        <activity
+            android:name=".Crud.activity_edit_user"
+            android:exported="false" />
+        <activity
+            android:name=".Crud.AddUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dangky"
+            android:exported="false" />
+        <activity
+            android:name=".dangnhap"
+            android:exported="false" />
+        <activity
+            android:name=".Crud.main"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OrderPlaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PlacedOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.NavCategory"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ViewAllMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity1.dangky1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

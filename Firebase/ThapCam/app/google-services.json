@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521265793606",
+    "project_id": "thapcam-d117c",
+    "storage_bucket": "thapcam-d117c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521265793606:android:7904214b3a7e2896885847",
+        "android_client_info": {
+          "package_name": "com.example.thapcam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFMVOPpoZ34gvZyLffJ_VPGJrGjKavQbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

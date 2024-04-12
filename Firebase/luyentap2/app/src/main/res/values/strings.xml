@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">luyentap2</string>
+    //
+    <string name="title_shop">Shop</string>
+    <string name="title_gifts">Gifts</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="shoes">Shoes</string>
+    <string name="cart">Cart</string>
+</resources>
